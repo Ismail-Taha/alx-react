@@ -1,20 +1,20 @@
+import logo from './holberton.jpg';
 import './App.css';
-import holberton_logo from './holberton-logo.jpg';
 
 function App() {
   return (
-    <>
-      <div className="App-header">
-        <img src={holberton_logo} alt="logo" />
+    <div className='App'>
+      <header className='App-header'>
+        <img src={logo} alt='logo' />
         <h1>School dashboard</h1>
-      </div>
-      <div className="App-body">
+      </header>
+      <body className='App-body'>
         <p>Login to access the full dashboard</p>
-      </div>
-      <div className="App-footer">
-        <p>Copyright 2020 - Holberton School</p>
-      </div>
-    </>
+      </body>
+      <footer className='App-footer'>
+        <p>Copyright 2020 - holberton School</p>
+      </footer>
+    </div>
   );
 }
 

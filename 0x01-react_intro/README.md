@@ -1,1 +1,2 @@
-# react intro with Aya
+# Introduction to React
+This directory contains projects done as an intro to React. 
